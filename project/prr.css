@@ -1,0 +1,69 @@
+.imagestyle1 {
+    vertical-align:bottom;
+    height:100px;
+    width: 100px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .imagestyle1:hover{
+     transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
+  }
+  .tt{
+    border: 2px solid black;
+    height: auto;
+    width: auto;
+    border-radius: 100px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-color: rgb(144, 143, 145);
+    
+  }
+  .img{
+   
+    height:500px;
+    width: 500px;
+    border-radius: auto;
+    padding: auto;
+    margin: auto;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .img:hover{
+    transform: scale(1.05); /* Slight zoom effect */
+   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Adds shadow on hover */
+ }
+ /* General Sidebar Styling */
+ .sidebar {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100vh; /* Full height sidebar */
+  position: fixed;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+}
+/* Sidebar Links */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: top right;
+}
+.sidebar li {
+ text-align: top right;
+}
+.sidebar{
+  text-decoration: none;
+  color: #283542;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+  transition: 2s;
+}
+
+/* Hover Effect for Sidebar Links */
+.first:hover{
+   color: #000000;
+   transition: 2s;
+   text-decoration: none;
+}
+  
